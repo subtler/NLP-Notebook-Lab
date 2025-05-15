@@ -1,0 +1,19 @@
+# Ignore large files and training artifacts
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+models/
+data/
+datasets/
+*.pt
+*.bin
+*.pkl
+*.joblib
+*.h5
+*.csv
+*.tsv
+*.zip
+*.tar
+*.gz
+.DS_Store
