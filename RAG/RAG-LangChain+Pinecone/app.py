@@ -10,7 +10,7 @@ from langchain_community.document_loaders import TextLoader, PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 # --- ENV SETUP ---
-os.environ["PINECONE_API_KEY"] = "pcsk_6ANMxB_NBF6TZziCKrn6kWNDskfdQzUj5GU7AJYtFWkWwsRefuXBdrJxRSxrvRe1Y2Nbi2"  # Replace this
+os.environ["PINECONE_API_KEY"] = "Your API key"  # Replace this
 
 # --- PINECONE ---
 pc = Pinecone()
